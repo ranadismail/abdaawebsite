@@ -1,0 +1,409 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+*{
+    text-decoration: none;
+   direction: rtl;
+}
+.div-one{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 800px;
+
+}
+/* page one */
+.main-div{
+    height: 800px;
+    width: 100%;
+    background-image: url('../img/763f2232475db17860bb62fcbb13e058.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-nav{
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 309px;
+    line-height: 2;
+    background-color: rgb(246, 185, 30);
+
+}
+.nav-item{
+    margin-left: 25px;
+    color: rgb(48, 46, 46);
+    font-size: 30px;
+    font-weight :300px;
+    font-family: DecoType Naskh Variants;
+    color: black;
+    background-color: rgb(246, 185, 30);
+    margin-bottom: 10px;
+}
+.nav-item:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: darkgoldenrod;
+    
+}
+.hed-beg {
+    text-align: center;
+    font-size: 50px;
+    padding-right: 100px;
+    font-family: Aldhabi;
+     font: weight 300px;;
+    color: rgb(54, 56, 51);
+    background-color: rgb(182, 171, 159);
+    padding-left: 15px;
+}
+
+
+.spn-one{
+   font-family: Brush Script MT;
+   letter-spacing: 5px;
+   font-size: 50px;
+   text-align: center;
+    color: darkgoldenrod;
+    background-color: rgb(182, 171, 159);
+    padding-left: 15px;
+}
+.par-beg{
+    text-align: right;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 15px;
+    color: #000;
+    font-family: Andalus;
+    text-decoration: underline ;
+}
+/* page twe */
+#page-twe{
+    height: 1000px;
+}
+.sec-pagetw{
+    display: flex;
+    flex-direction:  row-reverse;
+    background-color: rgb(255, 187, 0);
+    text-align: right;
+    font-size: 20px;
+
+   
+}
+.art-sec{
+    padding-right: 20px;
+    padding-top: 50px;
+
+}
+.img-sec{
+    padding-right: 50px ;
+    direction: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.div-sec{
+    font-size: 25px;
+    text-align: center;
+    padding-right: 60px  ;
+    color: rgb(0, 0, 0);
+    font-weight: 150;
+    text-align: justify;
+    direction: rtl;
+}
+.h-sec {
+    background-color: rgb(219, 133, 20);
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    width: 150px;
+    height: 60px;
+    text-align:left;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.p-pag2{
+    text-align: center;
+    /* background-color: rgb(219, 133, 20); */
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    width: 150px;
+    height: 70px;
+    padding-right: 60px;
+    text-align: center;
+}
+.hed-pagtw , .par-hed{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family:DecoType Naskh Variants ;
+    color: black;
+    background-color: rgb(219, 133, 20);
+}
+/* page three */
+#page-three{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(177, 173, 168);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+.h-ptree{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family:DecoType Naskh Variants ;
+    background-color: rgb(177, 173, 168);
+}
+.dpag1{
+    width: 45%;
+    margin-left: 20px;
+    background-image: url('../img/goldenpools-website-design.jpg');
+    background-color: crimson;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.dpag2{
+    width: 45%;
+    margin-left: 20px;
+    background-image: url('../img/83a7147b1d265179ebddbb31c5cb6923.jpg');
+    background-color: crimson;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    
+}
+.dpag3{
+    width: 45%;
+    margin-left: 20px;
+    background-image: url('../img/8c0c9dfcdeb15a114d81ac7fca55131b.jpg');
+    background-color: crimson;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+}
+.dpag4{
+    width: 45%;
+    margin-left: 20px;
+    background-image: url('../img/9351b6f62926630538e09fa8951c6b26.jpg');
+    background-color: crimson;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    
+
+}
+.par-page{
+    text-align: right;
+    font-size: 35px;
+    font-weight: 300;
+    border: 1px solid#000;
+    background-color:  rgb(255, 187, 0);
+    font-family:DecoType Naskh Variants ;
+}
+/* page four */
+#page-four{
+    background-color: rgb(177, 173, 168);
+    width: 100%;
+    height: 1500px;
+}
+.hed-pg4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(95, 43, 0);
+    font-family: DecoType Naskh Variants;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 187, 0);
+    color: #000;
+    border: 1px solid black;
+}
+.hed-pg4:hover{
+    background-color: rgb(255, 187, 0);
+    color: #000;
+    border: 1px solid black;
+}
+.main-divpage4{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-four{
+    width: 50%;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 40px;
+}
+.main-fourpar{
+    width: 50%;
+    height: 400px;
+    padding-top: 100px;
+    text-align: right;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:DecoType Naskh Variants ;
+}
+/* page five*/
+#page-five{
+    background-color :rgb(177, 173, 168);
+    height: 1200px;
+}
+.main-divp5{
+    width: 100%;
+    background-color :rgb(177, 173, 168);
+}
+.hed-pgf{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2px;
+    font-family:DecoType Naskh Variants ;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(219, 133, 20);
+    line-height: 1;
+
+}
+#page-five .hed-pgf:hover{
+    background-color: rgb(241, 200, 20);
+    
+    
+}
+
+.p-pg5{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 100;
+    font-family:DecoType Naskh Variants ;
+    padding-right: 50px;
+    padding-top: 100px;
+    
+}
+.spn{
+    margin-left: 50px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-right: 100px; 
+}
+.spn:hover{
+    color: rgb(139, 64, 3);
+    cursor: pointer;
+    
+}
+
+#div-imagep5{
+    font-size: 40px;
+    text-align: center;
+    padding-right: 90px;
+    padding-top: 40px;
+    font-weight: 300;
+}
+#div-imagep5:hover{
+    color: rgb(139, 64, 3);
+    cursor: pointer;
+    
+}
+
+#div-imagep5{
+    height: 600px;
+    background: url('../img/Screen\ Shot\ 2019-01-13\ at\ 2.38.59\ PM.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* footer */
+footer{
+    background:url('../img/IMG_٢٠٢١٠٩٠٣_٢١١٠١٤.jpg') no-repeat center center;
+    height: 580px;
+    background-size: cover;
+    text-align: right;
+}
+#sec-main-footer{
+    display: block;
+    width: 100%;
+    height: 580px; 
+
+}
+#sec-main-footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 600px;
+    background-size: cover;
+    text-align: right;
+    font-size:20px;
+    padding: 20px;
+    color: rgb(177, 173, 168);
+    font-family:DecoType Naskh Variants ;
+    padding-bottom: 40px;
+
+}
+#sec-main-footer{
+width: 100%;
+}
+.art-foot{
+    float: left;
+    width:50%;
+    padding-right: 90px;
+}
+#list-end{
+    text-align: center;
+    width: 50%;
+}
+.text-5{
+    font-size: 30px;
+    padding-left: 10px;
+    color: saddlebrown;
+    
+}
+.inform-us{
+    text-align: right;
+    color: saddlebrown;
+    border-radius: 12px;
+    width: 120px;
+    height: 70px;
+}
+.btn-one{
+    width: 120px;
+    height: 35px;
+    color: rgb(241, 241, 241);
+    background-color: saddlebrown;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+.inform-us-btn{
+    padding-top: 35px; 
+    border: none;
+}
+.list-foot ,.end-par{
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+.end-pro{
+    width: 100%;
+    height: 40px;
+    background-color: saddlebrown;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family:DecoType Naskh Variants ;
+    text-align: center;
+    font-weight: 200px;
+}
